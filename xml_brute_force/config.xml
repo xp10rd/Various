@@ -1,0 +1,33 @@
+<config>
+    <base>/home/xp10rd/MEGA/programming_projects/system-administration/xml_brute_force</base>
+    <wrapped>True</wrapped>
+    <gen_type>linear</gen_type>
+
+    <HeatStruct>
+        <Q>5002654.8</Q>
+        <Q>251327.4</Q>
+        <Q>50265.5</Q>
+        <Q>25132.7</Q>
+        <Q>5026.5</Q>
+    </HeatStruct>
+
+    <TimeTable>
+        <EndTime>1000.0</EndTime>
+        <DtStart>1.0</DtStart>
+        <DtStart>0.1</DtStart>
+        <DtStart>0.01</DtStart>
+    </TimeTable>
+
+    <TimeControl>
+        <DtMin>1.0</DtMin>
+        <DtMin>0.1</DtMin>
+        <DtMin>0.01</DtMin>
+        <DtMax>1.0</DtMax>
+        <DtMax>0.1</DtMax>
+        <DtMax>0.01</DtMax>
+    </TimeControl>
+
+    <file_name>experiment.xml</file_name>
+</config>
+
+
