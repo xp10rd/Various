@@ -1,0 +1,28 @@
+WORKING DIRECTORY: /home/xp10rd/CSE/CSE/pi-cluster
+
+PROCESSORS:
+pi-cluster-2
+pi-cluster-2
+pi-cluster-2
+pi-cluster-2
+pi-cluster-3
+pi-cluster-3
+pi-cluster-3
+pi-cluster-3
+pi-cluster-4
+pi-cluster-4
+pi-cluster-4
+pi-cluster-4
+
+Hello world from processor pi-cluster-2, rank 0 out of 12 processors
+Hello world from processor pi-cluster-2, rank 3 out of 12 processors
+Hello world from processor pi-cluster-3, rank 6 out of 12 processors
+Hello world from processor pi-cluster-2, rank 2 out of 12 processors
+Hello world from processor pi-cluster-3, rank 7 out of 12 processors
+Hello world from processor pi-cluster-3, rank 5 out of 12 processors
+Hello world from processor pi-cluster-3, rank 4 out of 12 processors
+Hello world from processor pi-cluster-4, rank 8 out of 12 processors
+Hello world from processor pi-cluster-4, rank 9 out of 12 processors
+Hello world from processor pi-cluster-4, rank 10 out of 12 processors
+Hello world from processor pi-cluster-4, rank 11 out of 12 processors
+Hello world from processor pi-cluster-2, rank 1 out of 12 processors

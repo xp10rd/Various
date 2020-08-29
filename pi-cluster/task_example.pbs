@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# use all nodes and all processors and 2 GB of memory in total
+#PBS -l nodes=3:ppn=4
+#PBS -l mem=2gb
+
+# SET A NUMBER OF PROCESSES HERE
+PN=12
+# SET A NAME OF EXECUTABLE FILE HERE
+EXECUTABLE=a.out
+
+# show working directory
+echo WORKING DIRECTORY: $PBS_O_WORKDIR
+echo
+
+# show working processors
+echo PROCESSORS:
+cat $PBS_NODEFILE
+echo
+
+# go to working directory
+cd $PBS_O_WORKDIR
+mpirun -np $PN -machinefile $PBS_NODEFILE $EXECUTABLE
